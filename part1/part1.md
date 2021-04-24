@@ -48,22 +48,22 @@
 
 ## Basic Operators & Type Conversion
 13. 
-    a. The output is ``32`` which is due to the `2` in the equation converting to a string to be concatenated with the `3`.
-    b. The output is `1` which is due to the `3` in the equation converting to a numeric type to have `2` subtracted from.
-    c. The output is `3` which is due to the `null` converting to `0` to be added to `3`.
-    d. The output is `3null` which is due to the `null` converting to a string to be concatenated with the `3`.
-    e. The output is `4` which is due to the `true` converting to the numeric value of `1` to be added to `3`.
-    f. The output is `0` which is due to `false` and `null` converting to their numeric equivalents, `0` and `0`. 
-    g. The output is `3undefined` which is due to `undefined` converting to a string to be concatenated with the `3`.
-    h. The output is `NaN` which is do to `undefined` converting to the numeric equivalent which is `NaN`. 
+    a. The output is ``32`` which is due to the `2` in the equation converting to a string to be concatenated with the `3`.  
+    b. The output is `1` which is due to the `3` in the equation converting to a numeric type to have `2` subtracted from.  
+    c. The output is `3` which is due to the `null` converting to `0` to be added to `3`.  
+    d. The output is `3null` which is due to the `null` converting to a string to be concatenated with the `3`.  
+    e. The output is `4` which is due to the `true` converting to the numeric value of `1` to be added to `3`.  
+    f. The output is `0` which is due to `false` and `null` converting to their numeric equivalents, `0` and `0`.  
+    g. The output is `3undefined` which is due to `undefined` converting to a string to be concatenated with the `3`.  
+    h. The output is `NaN` which is do to `undefined` converting to the numeric equivalent which is `NaN`.   
 
 14. 
-    a. The output is ``true`` because `2` is converted to the numeric equivalence to be compared with `1`.
-    b. The output is ``false`` because the `2` and `12` is converted to their numeric equivalence to be compared with each other.
-    c. The output is `true` because the string `2` is converted to the numeric equivalence to be compared with `2`.
-    d. The output is `false` because the strict equality operator checks equivalence without type conversion.
-    e. The output is `false` because the `true` is converted to the numeric equivalence of `1` to be compared with `2`.
-    f. The output is `true` because the `Boolean(2)` returns `true`. 
+    a. The output is ``true`` because `2` is converted to the numeric equivalence to be compared with `1`.  
+    b. The output is ``false`` because the `2` and `12` is converted to their numeric equivalence to be compared with each other.  
+    c. The output is `true` because the string `2` is converted to the numeric equivalence to be compared with `2`.  
+    d. The output is `false` because the strict equality operator checks equivalence without type conversion.  
+    e. The output is `false` because the `true` is converted to the numeric equivalence of `1` to be compared with `2`.  
+    f. The output is `true` because the `Boolean(2)` returns `true`.   
     
 15. The ``==`` operator checks for equivalence with type conversions while the ``===`` operator checks for equivalence without type conversion.  
 17. The resulting array would be ``[2, 4, 6]`` which is from modifyArray calling doSomething within the for-loop as a callback function with the arguments being the value at ``array[i]``. This is due to the callback function allowing another function to be called before the conclusion of another.  
