@@ -9,4 +9,5 @@ Added Watch:
 2. To fix it, I used the parseInt() to convert the string into a number. In the screenshot, I tested with 3+3 which returned the correct result of 6.     
 
 Solution:  
-![img](Part3/Solution.png)
+![img](Part3/Solution.png) 
+![img](Part3/Solution2.png)  
